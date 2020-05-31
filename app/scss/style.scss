@@ -9,6 +9,7 @@
 @import "blocks/intro";
 @import "blocks/previous";
 @import "blocks/services";
+@import "blocks/perfect";
 // =============== BLOKS ===============
 
 
@@ -20,6 +21,7 @@
 
 
 .btn {
+    text-align: center;
     font-size: 12px;
     text-transform: uppercase;
     color: #000;
@@ -28,10 +30,13 @@
     padding: 18px 36px;
     border-radius: 50px;
     outline: none;
+    background-color: #fff;
+    width: 160px;
     cursor: pointer;
     transition: all .2s linear;
+
     &:hover {
-        background-color: transparent;
+        background-color: #fcdb5a;
         color: #fff;
     }
 }
@@ -44,27 +49,30 @@
 }
 
 
- .title {
+.title {
     text-align: center;
-    margin-bottom: 80px;
-    
+    max-width: 570px;
+    margin: 0 auto 80px auto;
     h2 {
         font-size: 40px;
         color: #000;
         text-transform: uppercase;
         font-weight: 300;
         margin-bottom: 20px;
+
         span {
             font-family: 'Gilroy-ExtraBold';
         }
     }
+
     p {
         font-size: 18px;
         color: #b3b3b3;
         font-weight: 300;
+        line-height: 1.5;
     }
 
- }
+}
 
 
 
