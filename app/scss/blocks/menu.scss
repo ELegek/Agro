@@ -22,6 +22,7 @@
             color: #fff;
             font-size: 14px;
             position: relative;
+            outline: none;
             &:after {
                 content: '';
                 display: block;
@@ -30,7 +31,7 @@
                 background-color: #fcdb5a;
 
                 position: absolute;
-                bottom: -32px;
+                bottom: -33px;
                 opacity: 0;
                 transition: all .2s linear;
             }
