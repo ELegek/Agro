@@ -1,16 +1,17 @@
 .intro {
     position: absolute;
-    bottom: -555px;
+    bottom: -820px;
     left: 0;
     right: 0;
     z-index: 15;
     &__box {
         display: grid;
-        height: 680px;
+        height: 800px;
         grid-template-columns: repeat(11, 1fr);
         grid-template-rows: repeat(5, 1fr);
     }
     &__item {
+        
         position: relative;
     }
     &__item:not(:nth-child(4)) {
@@ -41,6 +42,7 @@
         font-size: 40px;
         h3 {
             font-weight: bold;
+            font-family: 'Gilroy-ExtraBold';
         }
         p {
             font-weight: 300;

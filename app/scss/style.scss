@@ -7,6 +7,8 @@
 @import "blocks/header";
 @import "blocks/menu";
 @import "blocks/intro";
+@import "blocks/previous";
+@import "blocks/services";
 // =============== BLOKS ===============
 
 
@@ -42,7 +44,27 @@
 }
 
 
+ .title {
+    text-align: center;
+    margin-bottom: 80px;
+    
+    h2 {
+        font-size: 40px;
+        color: #000;
+        text-transform: uppercase;
+        font-weight: 300;
+        margin-bottom: 20px;
+        span {
+            font-family: 'Gilroy-ExtraBold';
+        }
+    }
+    p {
+        font-size: 18px;
+        color: #b3b3b3;
+        font-weight: 300;
+    }
 
+ }
 
 
 

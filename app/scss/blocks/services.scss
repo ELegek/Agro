@@ -1,0 +1,14 @@
+.services {
+    padding: 100px 0;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        text-align: center;
+        img {
+            margin-bottom: 36px;
+        }
+    }
+}
