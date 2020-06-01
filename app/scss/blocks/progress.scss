@@ -1,0 +1,23 @@
+.progress {
+    padding: 100px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        width: 25%;
+        display: flex;
+        align-items: center;
+
+    }
+    &__text {
+        margin-left: 30px;
+        h3 {
+            font-size: 50px;
+            color: #2e211d;
+            font-family: 'Gilroy-ExtraBold';
+            margin-bottom: 10px;
+        }
+    }
+}
