@@ -1,0 +1,79 @@
+.about {
+    padding: 100px 0;
+
+    .title {
+        h2 {
+            color: #fff;
+        }
+    }
+    &__text {
+        font-size: 25px;
+        color: #fff;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 50px;
+        padding-left: 80px;
+    } 
+    &__name {
+        font-size: 18px;
+        color: #fff;
+        span {
+            font-weight: bold;
+        }
+    }
+    &__icon {
+        margin-right: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &__person {
+        display: flex;
+        align-items: center;
+    }
+    &__photo {
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 30px;
+        img {
+            display: block;
+        }
+    }
+
+    &__slider {
+        position: relative;
+        .slick-dots {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            bottom: 50px;
+            right: 0;
+            li {
+                list-style: none;
+                margin: 0 5px;
+                padding: 0;
+            }
+            li.slick-active button {
+                background-color: transparent;
+                border: 1px solid #fde557;
+            }
+            button {
+                font-size: 0;
+                width: 14px;
+                height: 14px;
+                background-color: #fde557;
+                border: none;   
+                border-radius: 50%;
+                outline: none;
+                cursor: pointer;
+                transition: all .2s linear;
+            }
+
+        }
+        &-item {
+            position: relative;
+        }
+    }
+
+}
+
