@@ -1,0 +1,45 @@
+.blog {
+    padding-top: 100px;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    &__item {
+        position: relative;
+    }
+    &__data {
+        position: absolute;
+        top: 0;
+        left: 30px;
+
+
+        display: inline-block;
+        padding: 17px;
+        background-color: #fde557;
+
+        font-size: 12px;
+        h3 {
+            font-family: 'Gilroy-ExtraBold';
+            font-size: 25px;
+        }
+    }
+    &__text {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+    }
+    &__title {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #fde557;
+
+        margin-bottom: 17px;
+    }
+    &__subtitle {
+        font-size: 18px;
+        font-family: 'Gilroy-ExtraBold';
+        color: #fff;
+    }
+}
