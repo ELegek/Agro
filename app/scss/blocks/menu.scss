@@ -40,6 +40,9 @@
             }
         }
     }
+    &__burger {
+        display: none;
+    }
 
 }
 .logo {
@@ -48,4 +51,44 @@
     margin-right: 70px;
     position: relative;
     z-index: 12;
+}
+
+.menu__burger {
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    position: relative;
+    transition: all .2s linear .2s;
+    &:before,
+    &:after {
+        position: absolute;
+        left: 0;
+        content: "";
+        display: block;
+        width: 30px;
+        height: 5px;
+        background-color: #fff;
+    }
+    &:before {
+        top: -10px;
+        transition: transform .2s ease-in, top .2s linear .2s;
+    }
+    &:after {
+        top: 10px;
+        transition: transform .2s ease-in, top .2s linear .2s;
+    }
+}
+.menu__burger.active {
+    background-color: transparent;
+    transition: all .2s linear;
+}
+.menu__burger.active::before {
+    transform: rotate(45deg);
+    top: 0;
+    transition: top .2s linear, transform .2s ease-in .2s;
+}
+.menu__burger.active::after {
+    transform: rotate(-45deg);
+    top: 0;
+    transition: top .2s linear, transform .2s ease-in .2s;
 }

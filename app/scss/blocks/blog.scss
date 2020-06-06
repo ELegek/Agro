@@ -4,10 +4,17 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 100px;
+        margin: 0 -15px 100px -15px;
+        img {
+        }
     }
     &__item {
         position: relative;
+        padding: 0 15px;
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
     &__data {
         position: absolute;
