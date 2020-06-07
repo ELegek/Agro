@@ -134,6 +134,22 @@
     }
 
     // ============ SERVICES =============
+
+    // ============ PERFECT =============
+    .perfect {
+        padding: 70px 0 210px 0;
+
+        &__title {
+            font-size: 30px;
+        }
+
+        &__text {
+            font-size: 12px;
+            margin-bottom: 30px;
+        }
+    }
+
+    // ============ PERFECT =============
 }
 
 @media (max-width: 600px) {
@@ -226,6 +242,22 @@
     }
 
     // ============ SERVICES =============
+
+    // ============ PERFECT =============
+    .perfect {
+        padding: 40px 0 170px 0;
+
+        &__title {
+            font-size: 26px;
+        }
+
+        &__text {
+            font-size: 12px;
+            margin-bottom: 30px;
+        }
+    }
+
+    // ============ PERFECT =============
 }
 
 @media (max-width: 320px) {
@@ -267,5 +299,6 @@
             font-size: 22px;
         }
     }
+
     // ============ SERVICES =============
 }
