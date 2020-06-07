@@ -3,6 +3,7 @@
     margin-bottom: 100px;
     &__row {
         display: flex;
+        flex-wrap: wrap;
         background-color: #fff;
     }
     &__item {
