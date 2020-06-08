@@ -6,6 +6,7 @@
         justify-content: space-between;
         align-items: flex-start;
         margin-bottom: 100px;
+        flex-wrap: wrap;
     }
     &__list {
         li {
@@ -43,6 +44,7 @@
         justify-content: space-between;
         align-items: flex-end;
         margin-bottom: 70px;
+        flex-wrap: wrap;
     }
     &__phone {
         h3 {
@@ -79,6 +81,7 @@
 
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
 
         color: #7e7e7e;
         font-size: 12px;

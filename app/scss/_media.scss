@@ -116,7 +116,7 @@
 
     // ============ HEADER =============
     .header {
-        height: 1300px;
+        height: 1200px;
 
         &__title {
             text-align: center;
@@ -128,7 +128,7 @@
 
     // ============ INTRO =============
     .intro {
-        bottom: -420px;
+        bottom: -320px;
 
         &__box {
             height: auto;
@@ -248,6 +248,10 @@
 
     // ============ BLOG =============
     .blog {
+        &__brend {
+            margin-bottom: 50px;
+        }
+
         &__data {
             padding: 5px;
 
@@ -275,6 +279,13 @@
     }
 
     // ============ BLOG =============
+
+    // ============ FOOTER =============
+    .footer {
+        padding-top: 50px;
+    }
+
+    // ============ FOOTER =============
 }
 
 @media (max-width: 600px) {
@@ -383,6 +394,29 @@
     }
 
     // ============ BLOG =============
+
+    // ============ FOOTER =============
+    .footer {
+        &__menu {
+            margin-bottom: 30px;
+        }
+
+        &__contact {
+            margin-bottom: 40px;
+        }
+
+        &__phone {
+            h3 {
+                font-size: 12px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+
+    // ============ FOOTER =============
 }
 
 @media (max-width: 480px) {
@@ -517,9 +551,36 @@
 
     // ============ ABOUT =============
 
-    // ============ BLOG =============
+    // ============ FOOTER =============
+    .footer {
+        .logo {
+            display: none;
+        }
+        &__menu {
+            justify-content: space-around;
+        }
+        &__contact {
+            .item {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+        }
+        &__icon-list {
+            justify-content: center;
+        }
+        &__copy {
+            padding: 15px 0;
+        }
+        &__copy-item {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 10px;
+        }
 
-    // ============ BLOG =============
+    }
+
+    // ============ FOOTER =============
 
 }
 
@@ -604,33 +665,33 @@
 
     // ============ PROGRESS =============
 
-        // ============ BLOG =============
-        .blog { 
-            &__data {
-                padding: 5px;
-    
-                h3 {
-                    font-size: 20px;
-                }
-    
-                p {
-                    font-size: 12px;
-                }
+    // ============ BLOG =============
+    .blog {
+        &__data {
+            padding: 5px;
+
+            h3 {
+                font-size: 20px;
             }
-    
-            &__text {
-                bottom: 20px;
-            }
-    
-            &__title {
-                font-size: 18px;
-                margin-bottom: 15px;
-            }
-    
-            &__subtitle {
-                font-size: 16px;
+
+            p {
+                font-size: 12px;
             }
         }
-    
-        // ============ BLOG =============
+
+        &__text {
+            bottom: 20px;
+        }
+
+        &__title {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        &__subtitle {
+            font-size: 16px;
+        }
+    }
+
+    // ============ BLOG =============
 }
