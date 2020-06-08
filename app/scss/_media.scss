@@ -18,9 +18,28 @@
 
     // ============ SERVICES =============
 
+    // ============ TASTY =============
+    .tasty {
+        padding: 60px 140px;
+    }
+
+    // ============ TASTY =============
+
 }
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+
+    // ============ TASTY =============
+    .tasty {
+        padding: 40px 80px;
+
+        &__title {
+            font-size: 170px;
+        }
+    }
+
+    // ============ TASTY =============
+}
 
 @media (max-width: 768px) {
 
@@ -159,6 +178,33 @@
     }
 
     // ============ RAW =============
+
+    // ============ TASTY =============
+    .tasty {
+        padding: 40px 40px;
+
+        &__title {
+            font-size: 150px;
+        }
+    }
+
+    // ============ TASTY =============
+
+    // ============ PROGRESS =============
+    .progress {
+        padding: 50px 0;
+        &__item {
+            width: 45%;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+        &__text {
+            h3 {
+                font-size: 40px;
+            }
+        }
+    }
+    // ============ PROGRESS =============
 }
 
 @media (max-width: 600px) {
@@ -193,6 +239,17 @@
     }
 
     // ============ INTRO =============
+
+    // ============ TASTY =============
+    .tasty {
+        padding: 40px 40px;
+
+        &__title {
+            font-size: 100px;
+        }
+    }
+
+    // ============ TASTY =============
 }
 
 @media (max-width: 480px) {
@@ -272,9 +329,11 @@
     .raw {
         &__item {
             width: 50%;
+
             h3 {
                 font-size: 14px;
             }
+
             p {
                 font-size: 12px;
             }
@@ -282,6 +341,17 @@
     }
 
     // ============ RAW =============
+
+    // ============ TASTY =============
+    .tasty {
+        padding: 40px 40px;
+
+        &__title {
+            font-size: 70px;
+        }
+    }
+
+    // ============ TASTY =============
 }
 
 @media (max-width: 320px) {
@@ -326,18 +396,40 @@
 
     // ============ SERVICES =============
 
-        // ============ RAW =============
-        .raw {
-            &__item {
-                width: 100%;
-                h3 {
-                    font-size: 14px;
-                }
-                p {
-                    font-size: 12px;
-                }
+    // ============ RAW =============
+    .raw {
+        &__item {
+            width: 100%;
+
+            h3 {
+                font-size: 14px;
+            }
+
+            p {
+                font-size: 12px;
             }
         }
-    
-        // ============ RAW =============
+    }
+
+    // ============ RAW =============
+
+    // ============ TASTY =============
+    .tasty {
+        padding: 40px 15px;
+
+        &__title {
+            font-size: 50px;
+        }
+    }
+
+    // ============ TASTY =============
+
+    // ============ PROGRESS =============
+    .progress {
+        padding: 30px 0;
+        &__item {
+            width: 100%;
+        }
+    }
+    // ============ PROGRESS =============
 }
