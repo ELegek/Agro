@@ -39,6 +39,8 @@
     }
 
     // ============ TASTY =============
+
+
 }
 
 @media (max-width: 768px) {
@@ -193,18 +195,33 @@
     // ============ PROGRESS =============
     .progress {
         padding: 50px 0;
+
         &__item {
             width: 45%;
             justify-content: center;
             margin-bottom: 50px;
         }
+
         &__text {
             h3 {
                 font-size: 40px;
             }
         }
     }
+
     // ============ PROGRESS =============
+
+    // ============ ABOUT =============
+    .about {
+        padding: 50px 0;
+
+        &__text {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+    }
+
+    // ============ ABOUT =============
 }
 
 @media (max-width: 600px) {
@@ -250,6 +267,26 @@
     }
 
     // ============ TASTY =============
+
+    // ============ GALLERY =============
+    .gallery {
+        &__col {
+            width: 50%;
+        }
+    }
+
+    // ============ GALLERY =============
+
+    // ============ ABOUT =============
+    .about {
+
+        &__text {
+            font-size: 18px;
+        }
+
+    }
+
+    // ============ ABOUT =============
 }
 
 @media (max-width: 480px) {
@@ -352,6 +389,37 @@
     }
 
     // ============ TASTY =============
+
+    // ============ ABOUT =============
+    .about {
+
+        &__text {
+            font-size: 16px;
+            padding-left: 30px;
+        }
+
+        &__name {
+            font-size: 16px;
+        }
+
+        &__icon {
+            display: none;
+        }
+        &__person {
+            display: none;
+        }
+        &__slider {
+            .slick-dots {
+                bottom: 0;
+            }
+        }
+        
+
+    }
+
+    // ============ ABOUT =============
+
+
 }
 
 @media (max-width: 320px) {
@@ -427,9 +495,11 @@
     // ============ PROGRESS =============
     .progress {
         padding: 30px 0;
+
         &__item {
             width: 100%;
         }
     }
+
     // ============ PROGRESS =============
 }

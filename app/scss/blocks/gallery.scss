@@ -1,8 +1,9 @@
 .gallery {
     display: flex;
-    
+    flex-wrap: wrap;
     &__col {
-        flex: 1 1 0;
+        
+        width: 25%;
 
     }
     &__item {
