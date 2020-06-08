@@ -40,6 +40,29 @@
 
     // ============ TASTY =============
 
+    // ============ BLOG =============
+    .blog {
+        padding-top: 50px;
+    }
+
+    // ============ BLOG =============
+    .blog {
+        &__brend {
+            justify-content: center;
+
+            &-item {
+                width: 30%;
+                margin-bottom: 30px;
+
+                img {
+                    width: 100%;
+                    max-height: 200px;
+                }
+            }
+        }
+    }
+
+    // ============ BLOG =============
 
 }
 
@@ -222,6 +245,36 @@
     }
 
     // ============ ABOUT =============
+
+    // ============ BLOG =============
+    .blog {
+        &__data {
+            padding: 5px;
+
+            h3 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+        &__text {
+            bottom: 15px;
+        }
+
+        &__title {
+            font-size: 10px;
+            margin-bottom: 8px;
+        }
+
+        &__subtitle {
+            font-size: 14px;
+        }
+    }
+
+    // ============ BLOG =============
 }
 
 @media (max-width: 600px) {
@@ -287,6 +340,49 @@
     }
 
     // ============ ABOUT =============
+
+    // ============ BLOG =============
+    .blog {
+        &__items {
+            margin-bottom: 30px;
+        }
+
+        &__brend {
+            margin-bottom: 30px;
+        }
+
+        &__item {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        &__data {
+            padding: 10px;
+
+            h3 {
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        &__text {
+            bottom: 30px;
+        }
+
+        &__title {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+
+        &__subtitle {
+            font-size: 20px;
+        }
+    }
+
+    // ============ BLOG =============
 }
 
 @media (max-width: 480px) {
@@ -405,20 +501,25 @@
         &__icon {
             display: none;
         }
+
         &__person {
             display: none;
         }
+
         &__slider {
             .slick-dots {
                 bottom: 0;
             }
         }
-        
+
 
     }
 
     // ============ ABOUT =============
 
+    // ============ BLOG =============
+
+    // ============ BLOG =============
 
 }
 
@@ -502,4 +603,34 @@
     }
 
     // ============ PROGRESS =============
+
+        // ============ BLOG =============
+        .blog { 
+            &__data {
+                padding: 5px;
+    
+                h3 {
+                    font-size: 20px;
+                }
+    
+                p {
+                    font-size: 12px;
+                }
+            }
+    
+            &__text {
+                bottom: 20px;
+            }
+    
+            &__title {
+                font-size: 18px;
+                margin-bottom: 15px;
+            }
+    
+            &__subtitle {
+                font-size: 16px;
+            }
+        }
+    
+        // ============ BLOG =============
 }
